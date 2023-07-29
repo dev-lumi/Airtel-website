@@ -1,0 +1,235 @@
+.but1{
+    background-color: transparent;
+    font-size: 11px;
+    border: none;
+    align-items: baseline;
+}
+.nav{
+  
+    border-top: 1px solid 170, 167, 167black;
+    border-bottom: 1px solid rgb(170, 167, 167);
+}
+.drop{
+    background-color: transparent;
+    border: none;
+}
+.butt{
+    align-items:end;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: red;
+    border-top: 1px solid red;
+}   
+ 
+.desk-img {
+    display: block;
+  }
+  
+  .mobile-img {
+    display: none;
+  }
+  .icond{
+    display: block;
+  }
+  .iconm{
+    display: none;
+  }
+  
+  @media (max-width: 700px) {
+    .desk-img {
+      display: none !important;
+    }
+    .mobile-img {
+      display: block;
+    }
+    .icond{
+        display: none !important;
+      }
+      .iconm{
+        display: block;
+      }
+      .buscard{
+        max-width: 25rem !important;
+        height: 100%;
+        margin-left: 1.5rem;
+        
+      }
+      ul{
+        text-align: center;
+        
+      }
+      
+   
+  }
+  .carousel-caption {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute !important;
+    font-size: 1vmax !important;
+    right: 35% !important;
+    bottom: 30px !important; 
+    left: 15% ;
+    top:5%;
+    z-index: 10;
+    padding-top: 20px!important;
+    padding-bottom: 20px !important;
+    color: black;
+    text-align: left !important;
+    font-weight: bolder;
+
+
+}
+.carousel-caption h3{
+    font-size: 3vmax;
+    font-weight: bolder;
+}
+
+.buttonb{
+    background-color: black;
+    color: white;
+    height: 2rem;
+    width: auto;
+    font-size: 0.4vmax;
+    border-radius: 10px;
+    cursor: pointer; 
+    border: none;
+    padding: auto;
+    
+}
+.buttonb:hover , .buttonw:hover{
+    background-color: rgb(156, 156, 156);
+}
+
+
+.buttonw{
+    background-color: white;
+    color: black;
+    height: 2rem;
+    width: auto;
+    font-size: 0.4vmax;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    
+}
+.button-recharge{
+    margin-top: 20px;
+    border-radius: 30px;
+    font-size: 0.7rem !important;
+    color: black !important;
+    background-color: rgb(197, 211, 240);
+    border: none;
+
+
+}
+.button-recharge:hover{
+    background-color: rgb(216, 220, 240);
+    border: 1px solid rgb(200, 191, 241);
+}
+.button-app{
+    background-color: rgb(240, 128, 128);
+    border: 1px solid white;
+    border-radius: 6px;
+    margin-left: 10px;
+    color: white;
+    font-size: 0.1rem;
+    height: 1.5rem;
+    cursor: pointer;
+   margin-top: 0.4rem;
+    
+}
+.button-app:hover{
+    background-color: grey;
+}
+.airtel-app{
+width: auto;
+font-size: 13px;
+display: flex;
+    
+}
+.btn-newcon{
+    margin-top: 20px;
+    border-radius: 50%;
+    font-size: 1.2rem !important;
+    color: black !important;
+    background-color: rgb(197, 211, 240);
+    border: none;
+
+}
+.switch-airel{
+  
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  font-size: 0.9rem;
+}
+.logoswitch{
+  width: 0.1rem;
+  height: 1rem;
+}
+.card-sec{
+  background-color: aliceblue;
+}
+.ct{
+  color: red;
+}
+.buynow a:hover{
+  text-decoration: none;
+}
+.buscard{
+  max-width: 13rem ;
+  height: 100%;
+  margin-left: 1.5rem;
+  
+}
+.heading a:hover{
+  text-decoration: none;
+}
+.card-sec2{
+  background-color: rgb(241, 250, 252);
+  margin-right: 0 !important;
+}
+.card-body{
+  cursor: pointer;
+}
+.card-body:hover{
+  background-color: rgba(0, 81, 255, 0.082);
+}
+.wi{
+  padding: 0 !important;
+}
+
+.row{
+  margin-right: 0 !important;
+}
+ul{
+  padding: 0;
+  list-style-type: none;
+  line-height: 2rem;
+  font-size: 0.5rem;
+}
+.first a{
+  text-decoration: none;
+  color: rgb(82, 82, 82);
+}
+.first a:hover{
+  color: rgb(255, 29, 29);
+}
+.footer-container{
+  border-bottom: 0.01rem solid rgb(92, 84, 84);
+}
+.buttonbot{
+  font-size: 0.7rem !important;
+}
+.soc:hover{
+  color: rgb(173, 40, 40) !important;
+}
+.cpyrt ul li{
+  display: inline;
+}
+.cpyrt a{
+  text-decoration: none;
+}
+.rights{
+  font-size: 0.4re;
+}
+
